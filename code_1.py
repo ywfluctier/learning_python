@@ -1,3 +1,12 @@
+'''为了检查类的继承时类方法的调用顺序'''
+
+
+
+
+
+
+
+
 class man( object ):
   def __init__(self,name='no_name',age=-1,gender='unknowns'):
     self.name = name
