@@ -21,6 +21,6 @@ big_multyply.py 学习大数运算，以模拟手工运算的方式执行大数�
 
 divider.py 设计了一个用于求一个数全部约数的算法。该算法首先求出素数表，然后求出质因数，最后根据质因数合成全部素数
 
-longest_common_sequence.py 学习了最大子串的分析模式。采用标记矩阵的形式，利用对角累加来迭代之前的比较结果。设置了最大串长和最大子串标记来取串。原博客有讲解最大子序列（非连续），仅作了解，未自主实现。
+longest_common_sequence.py 学习了最大子串的分析模式。采用标记矩阵的形式，利用对角累加来迭代之前的比较结果。设置了最大串长和最大子串标记来取串。[原博客](http://codepub.cn/2015/07/03/Python-implementation-of-the-longest-common-subsequences/)有讲解最大子序列（非连续），仅作了解，未自主实现。
 
 rename.py 自己写的小脚本，批量修改了没有规范格式的MID文件。其中汇报了WindowsError Error:3的错误。本以为是路径不存在，还反复用os.getcwd(),os.path.exists(-)调试。后来注意到文件名中不允许非法字符：'?','\','*'等。
