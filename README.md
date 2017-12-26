@@ -26,3 +26,5 @@ longest_common_sequence.py 学习了最大子串的分析模式。采用标记�
 rename.py 自己写的小脚本，批量修改了没有规范格式的MID文件。其中汇报了WindowsError Error:3的错误。本以为是路径不存在，还反复用os.getcwd(),os.path.exists(-)调试。后来注意到文件名中不允许非法字符：'?','\','*'等。
 
 qiushibaike.py 调用urllib，urllib2库尝试爬虫抓包。程序对糗事百科的内容进行了抓取，呈现内容有文字和图片两种方式。地址抽取采用随机抓取的方式，未完全捕获，未设置查重。matplotlib.pyplot库的使用有待加强。
+
+avatar_zhihu.py继续尝试爬虫抓包。捕获知乎用户的头像文件并下载。
