@@ -12,7 +12,7 @@ code_2_1.py
 
 [base064.py](https://github.com/ywfluctier/learning_python/blob/master/base064.py) 学习“base64”库完成的作业，编码时自动略去补全的'='，并在解码时能够自动填回来
 
-[BMP_judge.py](](https://github.com/ywfluctier/learning_python/blob/master/BMP_judge.py) 学习struct用法，完成的作业，编写函数分析文件头，判断是否为BMP文件并输出尺寸和颜色数。
+[BMP_judge.py](https://github.com/ywfluctier/learning_python/blob/master/BMP_judge.py) 学习struct用法，完成的作业，编写函数分析文件头，判断是否为BMP文件并输出尺寸和颜色数。
 
 [login.py](https://github.com/ywfluctier/learning_python/blob/master/login.py) 学习md5摘要算法，完成作业：设计简单的登录认证系统，同时采用‘加盐’方式保护用户的口令信息
 功能设计有：注册、登录、改密，其中用户名有合法性、存在性和重复性认证
